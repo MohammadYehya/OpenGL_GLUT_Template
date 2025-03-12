@@ -1,6 +1,8 @@
 #include <GL/glut.h>
 #include <iostream>
+
 using namespace std;
+
 int rx = 100, ry = 125;
 int xCenter = 250, yCenter = 250;
 
@@ -72,8 +74,7 @@ void ellipseMidPoint()
             y = y - 1;
             dy = dy - 2 * (rx * rx);
             dx = dx + 2 * (ry * ry);
-            p2 = p2 + dx -
-                 dy + (rx * rx);
+            p2 = p2 + dx - dy + (rx * rx);
         }
     }
     glFlush();
