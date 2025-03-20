@@ -4,8 +4,8 @@ A simple and reusable template for setting up an OpenGL project with GLUT and CM
 
 ## Prerequisites
 Make sure you have the following installed:
-- A C++ compiler (GCC, Clang, MSVC, etc.) preferably MinGW
 - CMake (>= 3.10) (You can download it from [here](https://cmake.org/download/))
+- A C++ compiler (GCC, Clang, MSVC, etc.) preferably MinGW (You can follow this [youtube video](https://www.youtube.com/watch?v=oC69vlWofJQ) to install MinGW)
 
 ## Directory Structure
 ```sh
